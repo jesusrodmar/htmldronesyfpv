@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DRONES Y FPV</title>
+    <link rel="stylesheet" href="/src/styles/globals.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-dark-bg text-white font-sans min-h-screen flex flex-col selection:bg-neon-pink selection:text-white">
+    
+    <!-- Header -->
+    <header class="sticky top-0 z-50 border-b border-white/10 bg-dark-bg/80 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <a href="#/" class="flex items-center gap-3 group">
+                    <div class="w-10 h-10 rounded-xl bg-neon-green flex items-center justify-center text-black group-hover:shadow-[0_0_15px_rgba(204,255,0,0.5)] transition-shadow p-1.5">
+                        <svg viewBox="0 0 100 100" class="w-full h-full fill-black">
+                            <path d="M10,15 Q20,40 40,40 L40,60 Q20,60 10,85 Q30,70 50,70 Q70,70 90,85 Q80,60 60,60 L60,40 Q80,40 90,15 Q70,30 50,30 Q30,30 10,15 Z" />
+                            <polygon points="50,42 44,50 50,58 56,50" fill="#ccff00" />
+                        </svg>
+                    </div>
+                    <span class="font-display font-black italic text-2xl tracking-wider">
+                        <span class="text-neon-green">DRONES</span>
+                        <span class="text-white">Y</span>
+                        <span class="text-neon-green">FPV</span>
+                    </span>
+                </a>
+
+                <!-- Desktop Nav -->
+                <nav id="desktop-nav" class="hidden md:flex items-center gap-8"></nav>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-btn" class="md:hidden p-2 text-gray-400 hover:text-white">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Mobile Nav -->
+        <div id="mobile-nav" class="hidden md:hidden border-t border-white/10 bg-dark-card max-h-[calc(100vh-4rem)] overflow-y-auto">
+            <div class="px-4 pt-2 pb-4 space-y-1" id="mobile-nav-content"></div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main id="app-content" class="flex-1 flex flex-col">
+        <!-- Content will be injected here by JS -->
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark-card border-t border-white/5 py-12 mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-gray-500">© 2026 Drones y FPV. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+{
+  "site": {
+    "title": "DRONES Y FPV",
+    "description": "Portal interactivo sobre el mundo de los drones FPV, guías, normativas y tutoriales."
+  },
+  "navigation": [
+    {
+      "name": "Inicio",
+      "path": "/"
+    },
+    {
+      "name": "Empezar",
+      "path": "/empezar",
+      "subItems": [
+        {
+          "name": "¿Qué es un dron?",
+          "path": "/empezar/que-es"
+        },
+        {
+          "name": "¿Cómo empezar?",
+          "path": "/empezar/como-empezar"
+        }
+      ]
+    },
+    {
+      "name": "Guías",
+      "path": "/guias",
+      "subItems": [
+        { "name": "Montajes Paso a Paso", "path": "/guias/montajes" },
+        { "name": "Guías de compra", "path": "/guias/compras" },
+        { "name": "Tutoriales", "path": "/guias/tutoriales" },
+        { "name": "Reviews", "path": "/guias/reviews" }
+      ]
+    },
+    {
+      "name": "Normativa",
+      "path": "/normativa",
+      "subItems": [
+        { "name": "ENAIRE / AESA", "path": "/normativa/enaire" },
+        { "name": "Requisitos de Vuelo", "path": "/normativa/requisitos" },
+        { "name": "Gestión Documental", "path": "/normativa/gestion" }
+      ]
+    },
+    { "name": "Noticias", "path": "/blog" },
+    { "name": "Contacto", "path": "/contacto" }
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "title": "Inicio",
+      "content": "<section class=\"py-24 text-center\"><h1 class=\"text-5xl font-bold mb-6 text-neon-green\">DOMINA EL CIELO CON ESTILO CINEMÁTICO</h1><p class=\"text-xl text-gray-400 max-w-2xl mx-auto mb-10\">Aprende a volar, montar y configurar drones FPV para grabaciones cinematográficas, con fluidez, precisión y calidad.</p><a href=\"#/empezar/que-es\" class=\"inline-block px-8 py-4 bg-neon-green text-black font-bold rounded-lg hover:scale-105 transition-transform\">Empieza aquí</a></section>"
+    },
+    {
+      "path": "/empezar/que-es",
+      "title": "¿Qué es un dron FPV?",
+      "content": "<section class=\"py-16 max-w-4xl mx-auto px-4\"><h1 class=\"text-4xl font-bold mb-8 text-neon-pink\">¿Qué es un dron FPV?</h1><p class=\"text-gray-300 text-lg leading-relaxed mb-6\">FPV significa First Person View (Vista en Primera Persona). A diferencia de los drones estabilizados tradicionales, los drones FPV se vuelan utilizando unas gafas que reciben la señal de vídeo en tiempo real desde la cámara del dron.</p><p class=\"text-gray-300 text-lg leading-relaxed\">Esto proporciona una experiencia de vuelo inmersiva y permite realizar maniobras acrobáticas y vuelos a alta velocidad con una precisión increíble.</p></section>"
+    },
+    {
+      "path": "/empezar/como-empezar",
+      "title": "¿Cómo empezar en el FPV?",
+      "content": "<section class=\"py-16 max-w-4xl mx-auto px-4\"><h1 class=\"text-4xl font-bold mb-8 text-neon-green\">¿Cómo empezar en el FPV?</h1><p class=\"text-gray-300 text-lg leading-relaxed mb-6\">Empezar en el mundo del FPV puede parecer abrumador al principio, pero siguiendo los pasos correctos es un proceso muy gratificante.</p><ul class=\"list-disc pl-6 text-gray-300 space-y-4 text-lg\"><li><strong>Paso 1:</strong> Compra una emisora (mando) de calidad.</li><li><strong>Paso 2:</strong> Practica en un simulador de vuelo FPV en tu ordenador (al menos 20-30 horas).</li><li><strong>Paso 3:</strong> Adquiere unas gafas FPV y tu primer dron (puede ser un kit RTF o montarlo tú mismo).</li><li><strong>Paso 4:</strong> ¡Sal a volar a un espacio abierto y seguro!</li></ul></section>"
+    },
+    {
+      "path": "/contacto",
+      "title": "Contacto",
+      "content": "<section class=\"py-16 max-w-2xl mx-auto px-4\"><h1 class=\"text-4xl font-bold mb-8 text-neon-green\">Contacto</h1><form class=\"space-y-6\"><div class=\"space-y-2\"><label class=\"block text-sm font-medium text-gray-400\">Nombre</label><input type=\"text\" class=\"w-full bg-dark-card border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-neon-green transition-colors\" placeholder=\"Tu nombre\" /></div><div class=\"space-y-2\"><label class=\"block text-sm font-medium text-gray-400\">Email</label><input type=\"email\" class=\"w-full bg-dark-card border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-neon-green transition-colors\" placeholder=\"tu@email.com\" /></div><div class=\"space-y-2\"><label class=\"block text-sm font-medium text-gray-400\">Mensaje</label><textarea rows=\"5\" class=\"w-full bg-dark-card border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-neon-green transition-colors\" placeholder=\"¿En qué podemos ayudarte?\"></textarea></div><button type=\"button\" class=\"w-full bg-neon-green text-black font-bold py-4 rounded-lg hover:bg-neon-green/90 transition-colors\">Enviar Mensaje</button></form></section>"
+    }
+  ],
+  "posts": [
+    {
+      "id": "dji-o4-analisis",
+      "title": "Análisis a fondo del nuevo sistema DJI O4",
+      "excerpt": "Probamos el último sistema de transmisión digital de DJI. ¿Merece la pena actualizar desde O3? Descubre todas las novedades y latencias reales.",
+      "category": "Tecnología",
+      "date": "15 Mar 2026",
+      "readTime": "8 min",
+      "image": "https://picsum.photos/seed/drone1/800/400?blur=1",
+      "color": "neon-green",
+      "content": "<p>El nuevo sistema DJI O4 promete revolucionar la transmisión de vídeo digital...</p>"
+    },
+    {
+      "id": "campeonato-espana-fpv",
+      "title": "Resumen del Campeonato de España FPV 2026",
+      "excerpt": "Los mejores pilotos del país se dieron cita en Madrid. Crónica completa, resultados y los setups ganadores del fin de semana.",
+      "category": "Eventos",
+      "date": "10 Mar 2026",
+      "readTime": "5 min",
+      "image": "https://picsum.photos/seed/race/800/400?blur=1",
+      "color": "neon-pink",
+      "content": "<p>El fin de semana pasado vivimos una de las competiciones más emocionantes...</p>"
+    }
+  ]
+}
